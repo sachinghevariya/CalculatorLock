@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500801743089",
+    "project_id": "calculatorlock-ac7b3",
+    "storage_bucket": "calculatorlock-ac7b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500801743089:android:c85f17df007f2d21ece150",
+        "android_client_info": {
+          "package_name": "calculator.lock.hide.photo.video.calculatorvault.safe.photovault.hideru.vault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfeuDNuyUmU8dkfELoWVLeXmeMcTxko7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

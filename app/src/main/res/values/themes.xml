@@ -1,0 +1,154 @@
+<resources>
+    <attr name="imageViewTint" format="color" />
+    <attr name="textColor" format="color" />
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorLock" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="imageViewTint">@android:color/white</item>
+        <item name="textColor">@android:color/white</item>
+        <item name="android:statusBarColor">@color/bg</item>
+
+    </style>
+
+    <style name="Theme.CalculatorLock" parent="Base.Theme.CalculatorLock" />
+
+    <style name="AppThemeLauncher" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/startup_screen</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+    </style>
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<!--        <item name="windowSplashScreenBackground">@color/bg</item>-->
+<!--        <item name="android:windowBackground">@drawable/splash_background</item>-->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_new</item>-->
+<!--        <item name="windowSplashScreenAnimationDuration">1000</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Theme.CalculatorLock</item>-->
+
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AdAttributionView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ads_attribute</item>
+    </style>
+
+
+    <style name="MainTextThemeRegularTextColor">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="MainTextThemeMediumTextColor">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="MainTextThemeBoldTextColor">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="MainTextThemeSemiBoldTextColor">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="MainTextThemeLightTextColor">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:layout_marginBottom">150dp</item>
+    </style>
+
+
+    <style name="CustomBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="BannerAdsView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NativeAdsView">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#C6C5C5</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="switchCompatCustom" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorForeground">@color/black</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorSwitchThumbNormal">@color/black</item>
+    </style>
+
+</resources>

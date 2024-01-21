@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nativeAdContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/adsBg"
+    android:elevation="0dp"
+    android:gravity="center"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/topMatchStatusContainer">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_container_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_ads"
+        android:visibility="visible"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_color="#ccc">
+
+        <include layout="@layout/native_admob_small_new"/>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flNativeRegularPlaceholder"
+        style="@style/NativeAdsView" />
+
+</androidx.cardview.widget.CardView>

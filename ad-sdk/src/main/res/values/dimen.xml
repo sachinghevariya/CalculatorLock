@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="native_ad_height">@dimen/_251sdp</dimen>
+    <dimen name="medium_native_ad_height">@dimen/_109sdp</dimen>
+    <dimen name="small_native_ad_height">@dimen/_50sdp</dimen>
+    <dimen name="banner_ad_height">@dimen/_42sdp</dimen>
+    <dimen name="rect_banner_ad_height">255dp</dimen>
+</resources>

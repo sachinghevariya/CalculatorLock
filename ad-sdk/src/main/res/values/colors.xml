@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:override="true">
+    <color name="colorAccent">#0097FF</color>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg">#efefef</color>
+    <color name="ad_native_content_text">#202124</color>
+    <color name="ad_qureka_color">#0097FF</color>
+    <color name="ad_ad_text_color">#000</color>
+    <color name="ad_button_text">#FFF</color>
+    <color name="ad_button_primary">#0097FF</color>
+    <color name="ad_button_primary_text">#FFF</color>
+    <color name="ad_button_common">#222222</color>
+    <color name="ad_button_common_text">#FFF</color>
+    <color name="ad_native_background">#FFFFFF</color>
+    <color name="ad_exit_text">#000</color>
+    <color name="ad_exit_button_background_exit">#DEF2FF</color>
+    <color name="ad_exit_button_background_rate">#0097FF</color>
+
+</resources>

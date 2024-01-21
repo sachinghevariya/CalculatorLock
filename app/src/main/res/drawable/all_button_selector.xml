@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state -->
+    <item android:drawable="@drawable/ic_check_lang" android:state_checked="true" />
+    <!-- Unselected state -->
+    <item android:drawable="@drawable/ic_lang_uncheck"  android:state_checked="false"/>
+</selector>

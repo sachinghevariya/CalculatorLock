@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">CalculatorLock</string>
+    <string name="lock">Lock</string>
+    <string name="calculator">Calculator</string>
+    <string name="loading_ads">Loading Ads..</string>
+    <string name="all_photos">ALL PHOTOS</string>
+    <string name="all_audio">ALL AUDIOS</string>
+    <string name="all_documents">ALL DOCUMENTS</string>
+    <string name="all_videos">ALL VIDEOS</string>
+    <string name="albums">ALBUMS</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="all">All</string>
+    <string name="camera">Camera</string>
+    <string name="from_folder">From Folder</string>
+    <string name="new_album">New Album</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_folder">Add album</string>
+    <string name="toast_msg_add_folder">Please add folderName</string>
+    <string name="hide">HIDE</string>
+    <string name="create_album">Create new album</string>
+    <string name="items">items</string>
+    <string name="processing">Processing</string>
+    <string name="msg_rm_media_from_vault">Your Media is removing from your vault and adding to your storage</string>
+    <string name="msg_rm_media_from_storage">Your Media is removing from storage to your vault</string>
+    <string name="msg_rm_media">Your files have been moved to the Trash and will be kept for 15 days</string>
+    <string name="pr_delete">Delete the selected items \nPermanently from your phone?</string>
+    <string name="done">Done</string>
+    <string name="unHide">Unhide</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="move">Move</string>
+    <string name="move_to_album">Move to Album</string>
+    <string name="no_data_found">No data found</string>
+    <string name="rooted_device_only">This operation works only on rooted devices</string>
+    <string name="select_audio_file">Please select an audio file</string>
+    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="press_back_again">Press back again to exit</string>
+    <string name="go_to_home_folder">Go to home folder</string>
+    <string name="folders">Folders</string>
+    <string name="capture">Capture</string>
+    <string name="capture_button_alt">Capture</string>
+    <string name="switch_camera_button_alt">Switch camera</string>
+    <string name="gallery_button_alt">Gallery</string>
+    <string name="back_button_alt">Back</string>
+    <string name="share_button_alt">Share</string>
+    <string name="share_hint">Share using</string>
+    <string name="capture_mode_camera">Camera</string>
+    <string name="capture_mode_hdr">HDR</string>
+    <string name="capture_mode_night">Night</string>
+    <string name="delete_button_alt">Delete</string>
+    <string name="delete_dialog">Delete current photo?</string>
+    <string name="delete_title">Confirm</string>
+    <string name="trash">Trash</string>
+    <string name="restore">Restore</string>
+    <string name="delete_file_msg">Deleted Files will be kept for 15 days before they\'re permanently deleted.</string>
+    <string name="cal_msg">Enter a 4-digit password and press the = button</string>
+    <string name="msg_wrong_pass">Password do not match</string>
+    <string name="set_your_security_question">Set your security Question</string>
+    <string name="select_security_question">Select security question :</string>
+    <string name="your_answer">Your answer</string>
+    <string name="your_answer_">Your Answer :</string>
+    <string name="msg_tips">You can enter 12341234 in calculator to reset the password by answering the security question.</string>
+    <string name="msg_tips1">Don\’t let others knows your answer.</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="msg_answer">Please fill answer</string>
+    <string name="msg_question">Please choose question</string>
+    <string name="tips">Tips</string>
+    <string name="tips_">Tips :</string>
+    <string name="msg_tips_reset">For Reset Password type\n“12341234=”</string>
+    <string name="got_it">Got it</string>
+    <string name="permission_denied">Permission request denied</string>
+    <string name="msg_folder_remove">You can\'t delete root folders</string>
+    <string name="folder_exist">Folder already exist</string>
+    <string name="settings">Settings</string>
+    <string name="notes">Notes</string>
+    <string name="security">Security</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="other">Other</string>
+    <string name="language">Language</string>
+    <string name="rate_us">Rate us</string>
+    <string name="feedback">Feedback</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="theme">Theme</string>
+    <string name="apply">Apply</string>
+    <string name="msg_set_pass">Set a 4 digit password and press the “=” button</string>
+    <string name="set_password">Set Password</string>
+    <string name="cant_move_same_folder">You can not move in same folder</string>
+    <string name="loading">Loading…</string>
+    <string name="exit_app">Exit app</string>
+    <string name="yes_exit">Yes, Exit</string>
+    <string name="rate_app">Rate App</string>
+    <string name="are_you_sure_want_to_exit_app">Are you sure want to exit app?</string>
+    <string name="default_pass">12341234</string>
+    <string name="select_media">Please select media</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="msg_welcome"><![CDATA[Calculator Photo Vault is the Vault app can secretly Hide Photos & Hide Videos]]></string>
+    <string name="agree_continue"><![CDATA[Agree & Continue]]></string>
+    <string name="disagree">Disagree</string>
+    <string name="permission_note_title">Privacy and Permissions Notice</string>
+    <string name="msg_privacy">In order to perform functionality you need to agree.</string>
+    <string name="agree_privacy_and_terms">By continuing to use CalculatorLock, you agree to our Privacy Policy.</string>
+    <string name="no_media_found">"No Data found "</string>
+    <string name="necessary_permissions">Necessary Permissions</string>
+    <string name="per_msg">"In order for CalculatorLock to work properly, please grant access to all files. "</string>
+    <string name="grant">Grant</string>
+    <string name="send">Send</string>
+    <string name="feedback_or_suggestion">Feedback or suggestion</string>
+    <string name="feedback_toast">Please enter feedback</string>
+    <string name="wrong_answer">Wrong answer</string>
+    <string name="days">days</string>
+    <string name="first_set_answer">Please enter password and first set security question answer</string>
+    <string name="disguise">Disguise</string>
+    <string name="add_note">Type your Note…</string>
+    <string name="content">description</string>
+    <string name="document">Documents</string>
+    <string name="audio">Audios</string>
+    <string name="unable_to_play">Unable to play</string>
+    <string name="unable_to_open">Unable to open</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="date">Date :</string>
+    <string name="toast_des">Please add description</string>
+    <string name="toast_title">Please add title</string>
+    <string name="no_data_yet_add_now">No Data yet. Add Now!</string>
+    <string name="something_went_wrong">something went wrong</string>
+    <string name="choose_your_lan">Select Language</string>
+    <string name="file_manager">File Manager</string>
+    <string name="tips_tips">Tips</string>
+
+    <string name="cal_00" translatable="false">00</string>
+    <string name="cal_0" translatable="false">0</string>
+    <string name="cal_dot" translatable="false">.</string>
+    <string name="cal_equal" translatable="false">=</string>
+    <string name="cal_minus" translatable="false">-</string>
+    <string name="cal_plus" translatable="false">+</string>
+    <string name="cal_3" translatable="false">3</string>
+    <string name="cal_2" translatable="false">2</string>
+    <string name="cal_1" translatable="false">1</string>
+    <string name="cal_multiply" translatable="false">*</string>
+    <string name="cal_6" translatable="false">6</string>
+    <string name="cal_5" translatable="false">5</string>
+    <string name="cal_4" translatable="false">4</string>
+    <string name="cal_mod" translatable="false">%</string>
+    <string name="cal_9" translatable="false">9</string>
+    <string name="cal_8" translatable="false">8</string>
+    <string name="cal_7" translatable="false">7</string>
+    <string name="cal_div" translatable="false">/</string>
+    <string name="cal_c" translatable="false">AC</string>
+    <string name="cal_plus_minus" translatable="false">+/-</string>
+    <string name="cal_del" translatable="false">Del</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="permission_note_desc_new" translatable="false">1. Permissions\nWe may ask you to provide certain permissions in order to let our features perform properly.\n\n2. Privacy\nThe following information is only used to improve the product experience and will not be sold to any third parties. We will not use this information for purposes other than improving the product experience and ad performance.\n\nWe collect the app package name that the user is currently using when an in-app file is deleted by other software, in order to analyze how to better protect the user\'s files.\n\nWe collect the file path and file name information when an error occurs in the file operation , so as to analyze the reason for the file operation failure.</string>
+    <string name="files">Files</string>
+    <string name="play_audio_error">File is currpted you can\'t play.</string>
+
+</resources>

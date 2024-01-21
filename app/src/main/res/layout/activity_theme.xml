@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".ui.activity.ThemeActivity">
+
+    <LinearLayout
+        android:id="@+id/containerTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_29sdp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:paddingVertical="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/MainTextThemeMediumTextColor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:text="@string/theme"
+            android:textColor="@color/textColorWhite"
+            android:textSize="@dimen/_15ssp" />
+
+
+        <LinearLayout
+            android:id="@+id/btnConfirm"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_btn_blue"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvConfirm"
+                style="@style/MainTextThemeRegularTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/apply"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorWhite"
+                android:textSize="@dimen/_10ssp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/banner_ad_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerTop">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btnTheme0"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_theme_0_unselected"
+                app:layout_constraintEnd_toStartOf="@+id/btnTheme1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnTheme1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_theme_1_unselected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnTheme0"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnTheme2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginVertical="@dimen/_15sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_theme_2_unselected"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnTheme3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTheme0" />
+
+            <ImageView
+                android:id="@+id/btnTheme3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginVertical="@dimen/_15sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_theme_3_unselected"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnTheme2"
+                app:layout_constraintTop_toBottomOf="@+id/btnTheme0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <include
+        android:id="@+id/banner_ad_container"
+        layout="@layout/ad_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_ad_height"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

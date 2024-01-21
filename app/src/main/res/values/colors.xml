@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#2C82FF</color>
+    <color name="colorPrimary">#237CFD</color>
+    <color name="colorPrimaryDark">#0F71FF</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorWhiteGray">#A4A5A9</color>
+    <color name="textColorGray">#77778B</color>
+    <color name="textColorGrayLight">#696977</color>
+    <color name="textColorWhiteLight">#A5A5AB</color>
+    <color name="bg">#0B0B15</color>
+    <color name="bgView">#1E1E28</color>
+    <color name="bgSelectFolder">#41485A</color>
+    <color name="bgView_">#2E2E3C</color>
+    <color name="theme0">#205EFF</color>
+    <color name="equalBg">#205EFF</color>
+
+
+    <color name="gray">#757575</color>
+    <color name="gray_light">#CECEFB</color>
+    <color name="adBlack">#FFFFFF</color>
+    <color name="default_background_color">@color/bg</color>
+
+    <color name="icActive">#FF3B3B4B</color>
+    <color name="icFocused">#DD3B3B4B</color>
+    <color name="icPressed">#AA3B3B4B</color>
+    <color name="colorStart">#359EFF</color>
+    <color name="colorEnd">#205EFF</color>
+    <color name="textColorGrayLightLight">#868696</color>
+    <color name="colorThemeLine">#34343E</color>
+
+
+
+    <color name="you_status_bar_color">@color/bg</color>
+    <color name="you_contextual_status_bar_color">@color/bg</color>
+    <color name="you_background_color">@color/bg</color>
+    <color name="you_bottom_bar_color">@color/bg</color>
+    <color name="you_neutral_text_color">@color/textColorWhite</color>
+    <color name="you_primary_color">@color/colorPrimary</color>
+    <color name="you_primary_dark_color">@color/colorPrimaryDark</color>
+    <color name="you_dialog_background_color">@color/bg</color>
+    <color name="you_surface_color">@color/bg</color>
+    <color name="you_selected_item_background_color">@color/bg</color>
+    <color name="you_ripple_color">@color/bg</color>
+    <color name="adsBg">#262631</color>
+    <color name="your_disabled_tint_color">#85858A</color>
+    <color name="bgSelectLanguage">#0E1B42</color>
+    <color name="bgUnSelectLanguage">#000E1B42</color>
+    <color name="bgTheme0">#324063</color>
+    <color name="bgThemeBtnPri0">#23232D</color>
+</resources>
